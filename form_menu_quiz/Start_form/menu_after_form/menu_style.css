@@ -1,0 +1,215 @@
+* {
+    box-sizing: border-box;
+    
+}
+
+body {
+    
+    background: linear-gradient(rgb(0, 0, 3), rgb(255,192,203));
+    height: 100vh; 
+    min-width: 783px
+
+
+}
+
+.container-body {
+
+    width: inherit;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+ 
+}
+
+.data {
+
+    width: 500px;
+    height: 302px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    color: rgb(224, 144, 144);
+    margin-right: 700px;
+    
+}
+
+.data .currentDay {
+
+    margin-bottom: 10px;
+    font-size: 40px;
+
+}
+
+.data .clock  {
+
+    margin-top: 0px;
+    font-size: 40px;
+    margin-bottom: 190px;
+  
+}
+
+.body-app {
+  
+   width: 700px;
+    height: 300px;
+    margin-right: 50px;
+  
+}
+
+.header-app {
+
+    width: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(224, 144, 144);
+    
+}
+
+.city-information {
+
+    width: inherit;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    color: rgb(231, 215, 215);
+    
+}
+
+.city-information h2 {
+
+    margin: 40px 0 0 0;
+    width: inherit;
+
+}
+
+.icon-weather {
+
+    width: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 100px;
+    margin: 0 30px 50px 0;
+
+}
+
+.icon-weather i {
+
+    margin-right: 60px;
+    margin-bottom: 20px;
+    width: 100px;
+    height: 100px
+
+}
+
+.what-kind-information {
+
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    border-top: 1px dotted rgb(255, 255, 255);
+    border-bottom: 1px dotted rgb(255, 255, 255);
+    color: rgb(231, 215, 215);
+
+}
+
+.information-about-weather {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    color: rgb(231, 215, 215);
+
+}
+
+.information-temaperature {
+    
+    margin: 0 30px 0 50px;
+
+}
+
+.information-weather {
+
+    margin-left: 7px;
+
+}
+
+.container-welcome-text {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 40px 0px 0px 0px;
+    text-align: center;
+
+}
+
+.container-welcome-text h1, h2 {
+    font-size: 40px;
+    margin: 3px 0px 0px 0px
+
+}
+
+.rules {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 200px;
+    font-size: 30px;
+
+}
+
+.all-quiz {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 90px;
+
+}
+
+.quiz-JS {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.all-quiz p {
+    font-weight:900;
+    text-align:center;
+    margin: 15px 0px 15px 0px;
+    font-size: 20px;
+ 
+}
+
+a {
+
+    color: #000000;
+    text-decoration: none; 
+    outline: none;
+    cursor:pointer;
+    text-decoration:none; 
+
+}
+
+a:hover,
+a:focus {
+
+    color:#2d3133; 
+
+}
+
+
